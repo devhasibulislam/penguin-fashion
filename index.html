@@ -7,10 +7,331 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- section 1 -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand menu__logo" href="#">
+                    <img src="images/logo.png" alt="logo" class="d-inline-block align-text-top img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <main class="py-5">
+        <!-- section 2 -->
+        <section
+            class="hero__section container d-lg-flex flex-row justify-content-lg-center align-items-lg-center pb-5">
+            <div class="hero__title w-50">
+                <article>
+                    <h1>
+                        <span>BE THE PENGUIN</span>
+                        <br>
+                        OF WINTER
+                    </h1>
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi dicta excepturi sapiente
+                        vel quos fugiat repudiandae laborum quam optio id, suscipit ratione dolor doloremque maxime,
+                        earum quae maiores fugit.
+                    </P>
+                </article>
+                <button type="submit" class="btn btn-success px-4 py-2">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span>BUY NOW</span>
+                </button>
+            </div>
+            <div class="hero__image w-50 text-center">
+                <img src="images/model.png" alt="model">
+            </div>
+        </section>
+    </main>
+
+    <!-- section 3 -->
+    <section class="product-section">
+        <section class="women__jacket mt-5">
+            <div class="container">
+                <h2 class="my-4">WOMEN JACKET</h2>
+                <div class="jacket__showpiece">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-1.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-2.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-3.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- section 4 -->
+                <h2 class="mt-5 mb-3">MEN JACKET</h2>
+                <div class="jacket__showpiece">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-4.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-5.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 column">
+                            <div class="jacket__card rounded p-3">
+                                <div class="card__image">
+                                    <span class="w-100 d-lg-block text-center rounded py-3">
+                                        <img src="images/jacket-6.png" alt="jacket-1">
+                                    </span>
+                                </div>
+                                <article class="card__desc">
+                                    <div class="card__title">
+                                        <h3 class="mt-3">Lorem, ipsum dolor.</h3>
+                                    </div>
+                                    <div class="card__info">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sit.
+                                        </p>
+                                    </div>
+                                </article>
+                                <div
+                                    class="card__price d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center">
+                                    <div class="int__price">
+                                        <span>$234</span>
+                                    </div>
+                                    <div class="purchase__btn">
+                                        <button type="submit" class="btn btn-success px-4 py-2">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>BUY NOW</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- section 5 -->
+    <footer class="my-5 pt-5">
+        <div class="footer__sectin container d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center my-5 py-5">
+            <section class="footer__info w-50 me-5">
+                <div class="footer__box d-lg-flex flex-lg-col rounded">
+                    <div class="box__icon text-center">
+                        <img src="images/house.png" alt="house">
+                    </div>
+                    <div class="box__desc">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni, autem fuga beatae
+                            maxime provident.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__box d-lg-flex flex-lg-col rounded">
+                    <div class="box__icon text-center">
+                        <img src="images/box.png" alt="house">
+                    </div>
+                    <div class="box__desc">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni, autem fuga beatae
+                            maxime provident.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__box d-lg-flex flex-lg-col rounded">
+                    <div class="box__icon text-center">
+                        <img src="images/question.png" alt="house">
+                    </div>
+                    <div class="box__desc">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni, autem fuga beatae
+                            maxime provident.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__logo w-50 ms-5">
+                <img src="images/shopping.png" alt="shopping" class="img-fluid">
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

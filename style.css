@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.menu__logo {
+    background-image: url(icons/Group\ 33064.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.menu__logo img {
+    max-width: 30% !important;
+}
+
+a {
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main {
+    background-color: #FFFBF0;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.hero__title article h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.hero__title article h1 span {
+    color: #FABE4C;
+    font-size: 80px;
+}
+
+.hero__title article p, p {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    word-spacing: 3px;
+    line-height: 27px;
+}
+
+.jacket__card {
+    box-shadow: 0px 0px 5px 0px rgba(161, 161, 161, 0.75);
+    box-sizing: border-box;
+}
+
+.card__image {
+    overflow: hidden;
+}
+
+.card__image span {
+    background-color: #f1f1f1;
+}
+
+.card__image span img {
+    width: 50%;
+    transition: all 0.3s linear;
+}
+
+.card__image span img:hover {
+    transform: scale(1.2);
+}
+
+.int__price span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FABE4C;
+}
+
+.footer__box {
+    box-shadow: 0px 0px 5px 0px rgba(161, 161, 161, 0.75);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.box__icon img {
+    width: 50%;
+}
+
+.box__desc h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box__desc p {
+    font-size: 15px;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+    line-height: 24px;
+}
+
+.footer__logo {}
+.footer__logo img{}
